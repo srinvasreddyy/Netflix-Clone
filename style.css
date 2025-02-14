@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.main{
+    background: 
+        radial-gradient(circle, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.8) 100%),
+        linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0) 50%),
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0) 50%),
+        linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0) 50%),
+        linear-gradient(to left, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0) 50%),
+        url("https://assets.nflxext.com/ffe/siteui/vlv3/f268d374-734d-474f-ad13-af5ba87ef9fc/web/IN-en-20250210-TRIFECTA-perspective_92338d5d-6ccd-4b1a-8536-eb2b0240a55e_large.jpg") center/cover no-repeat;
+ 
+
+    height: 100vh;
+    width: 100vw;
+}
+
+nav .box .logo svg{
+    width: 165px;
+    color: rgba(229, 9, 20, 0.63);
+    fill: rgb(255, 0, 13);
+    margin-top: 10px;
+}
+
+.logo{
+    margin: 20px;
+}
+.box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 80vw;
+    margin: auto;
+}
+
+
+.side{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.side .button{
+    justify-self: flex-end;
+    align-self: center;
+    
+    margin: 10px;
+    /* padding: 10px; */
+}
+.lang{
+    background-color: rgba(0, 0, 0, 0.377);
+    width: 111px;
+    height: 32px;
+    color:white;
+    padding: 2px 10px;
+    list-style: none;
+}
+.signin{
+    width: 79px;
+    height: 32px;
+    background-color:rgb(255, 0, 13) ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 1px 5px;
+}
+.mid{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    max-width: 43vw;
+    margin: auto;
+    text-align: center;
+    margin-top: 15vh;
+    gap: 20px;
+    /* box-shadow: 0px 0px 10px 10px black; */
+}
+.maintext{
+    font-size: 3.8rem;
+    font-weight: 900;
+    font-family: 'Netflix Sans',Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    text-shadow: 0px 0px 20px black;
+}
+.cost{
+    font-family: 'Netflix Sans',Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-weight: 600;
+    font-size: 1.3rem;
+    text-shadow: 0px 0px 20px black;
+}
+.stext{
+    font-family: 'Netflix Sans',Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    text-shadow: 0px 0px 20px black;
+}
+.cre{
+    display: grid;
+    grid-template-columns: 1.8fr 1fr;
+    gap: 10px;
+}
+.cre button,input{
+    flex: 1;
+    height: 60px;
+    border-radius: 6px;
+}
+.cre input{
+    border: 0.5px solid white;
+    background-color: rgba(11, 10, 10, 0.423);
+    padding-left: 15px;
+    font-size: 1.05em;
+    font-weight: 700;
+}
+
+.cre button{
+    border: none;
+    background-color: rgb(255, 0, 13);
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 1.8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cre button svg{
+    margin-left: 5px;
+    width: 19px;
+}
+.main2{
+    max-width: 79vw;
+    margin: auto;
+}
+.main2 h2{
+    font-family: 'Netflix Sans',Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    color: white;
+    background-color: black;
+    font-size: 1.7rem;
+    margin: 20px;
+}
+
+.movies{
+    max-width: 90vw;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.movies .movie img{
+    border-radius: 10px;
+}
+
+.main3 {
+    max-width: 78vw;
+    margin: auto;
+    color:white;
+    font-family: 'Netflix Sans',Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+.main3 h2{
+    font-size: 1.7em;
+}
+
+.m3text{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.main3text{
+    border-radius: 20px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 10px 10px 0px 15px;
+    background-color: rgb(10, 28, 59);
+}
+.main3text h3 {
+    max-width: 250px;
+    font-size: 1.5em;
+    margin: 16px 0px 0px ;
+}
+.main3text p{
+    font-size: 1em;
+}
+
+.faq{
+    color: white;
+    font-family:'Netflix Sans',Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif ;
+    max-width: 78vw;
+    margin: auto;
+}
+ .faq h3{
+    font-size: 23px;
+    margin: 20px 20px 20px 0px ;
+}
+.queries{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 8px;
+}
+.faqs{
+    background-color: rgb(51, 50, 50);
+    padding: 10px;
+    font-size: 1.5em;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+.queries svg{
+    width: 40px;
+    margin-left: auto;
+}
+.main4{
+    width: 60vw;
+    margin: auto;
+    text-align: center;
+    margin-top: 10vh;
+}
+.main4 p{
+    margin: 20px;
+}
+footer{
+    color: rgb(165, 163, 163);
+    max-width: 78vw;
+    margin: auto;
+    font-family: 'Netflix Sans',Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.links{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 20px;
+}
+.link{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.end{
+    margin-top: 30px;
+    padding: 2px 18px ;
+}
+.number{
+    position: relative;
+    left: -34px;
+    bottom: -26px;
+    font-weight: 600;
+    font-size: 90px;
+}
