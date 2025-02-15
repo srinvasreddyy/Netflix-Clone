@@ -147,13 +147,40 @@ nav .box .logo svg{
     flex-direction: row;
     gap: 50px;
 }
-
-.movies .movie img{
+.movies .movie{
+    width: 210px;
+    height: 282px;
     border-radius: 10px;
+}
+.movies .movie1 {
+    background-image: url(movie1.webp);
+    background-size: cover;
+}
+.movies .movie2 {
+    background-image: url(movie2.webp);
+    background-size: cover;
+}
+.movies .movie3 {
+    background-image: url(movie3.webp);
+    background-size: cover;
+}
+.movies .movie4 {
+    background-image: url(movie4.webp);
+    background-size: cover;
+}
+.number p {
+    position: relative;
+    top: 150px;
+    left: -20px;
+    font-weight: 800;
+    font-size: 100px;
+    -webkit-text-fill-color: rgb(0, 0, 0);
+    -webkit-text-stroke: 1px white;
+    font-family: 'Netflix Sans', Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
 }
 
 .main3 {
-    max-width: 78vw;
+    max-width: 75vw;
     margin: auto;
     color:white;
     font-family: 'Netflix Sans',Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
@@ -178,7 +205,8 @@ nav .box .logo svg{
     align-items: flex-start;
     gap: 20px;
     padding: 10px 10px 0px 15px;
-    background-color: rgb(10, 28, 59);
+    background: linear-gradient(to bottom, #1a1a2e 50%, #0f0f1b 80%, #ff007f 250%);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 .main3text h3 {
     max-width: 250px;
@@ -245,11 +273,4 @@ footer{
 .end{
     margin-top: 30px;
     padding: 2px 18px ;
-}
-.number{
-    position: relative;
-    left: -34px;
-    bottom: -26px;
-    font-weight: 600;
-    font-size: 90px;
 }
